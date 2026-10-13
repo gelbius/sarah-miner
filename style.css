@@ -279,3 +279,6 @@ blockquote.pull footer { margin-top: 1.25rem; font: 400 .9rem/1.4 var(--sans); c
   .site-header nav, .site-footer, .pager, .skip, .contact { display: none; }
   .navy { background: #fff; color: var(--navy); }
 }
+@media (max-width: 480px) {
+  .display { font-size: clamp(1.5rem, calc((100vw - 48px) / 12.2), 2.3rem); max-width: none; }
+}
